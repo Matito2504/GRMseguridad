@@ -296,7 +296,7 @@ header a:hover {
 
 }
 
-.container {
+.container-footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -304,7 +304,7 @@ header a:hover {
     gap: 50px;
 }
 
-.footer .container .logo img {
+.footer .container-footer .logo img {
     width: 250px;
     height: 150px;
     border-radius: 200px;
