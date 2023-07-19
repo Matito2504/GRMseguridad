@@ -610,7 +610,11 @@ header a:hover {
         padding-top: 0;
         margin-top: 0;
     }
-
+   /* hero*/
+    .animate__animated{
+        font-size: 50px;
+    }
+  /* sobre Nosotros */
     #sobre-nosotros {
         display: flex;
         flex-direction: column;
