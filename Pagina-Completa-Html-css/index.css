@@ -214,6 +214,7 @@ header a:hover {
     box-shadow: 0px 15px 25px rgb(231, 158, 21);
 }
 
+/*section contacto*/
 .form-img {
     background-color: rgb(231, 158, 21);
 }
@@ -611,10 +612,16 @@ header a:hover {
         margin-top: 0;
     }
    /* hero*/
+
     .animate__animated{
         font-size: 50px;
     }
+    .animate__headShake{
+        font-size: 35px;
+    }
+
   /* sobre Nosotros */
+
     #sobre-nosotros {
         display: flex;
         flex-direction: column;
@@ -664,6 +671,8 @@ header a:hover {
         text-align: center;
     }
 
+   
+
     /* Footer */
 
     .footer {
@@ -675,5 +684,14 @@ header a:hover {
         flex-direction: column;
         align-items: center;
     }
+
+
+    @media screen and (max-width: 400px) {
+
+    .form-input{
+        width: 250px;
+    }
+
+}
 
 }
