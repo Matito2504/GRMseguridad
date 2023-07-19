@@ -698,6 +698,12 @@ header a:hover {
         justify-content: center;
     }
 
+    .texto-sobre-nosotros {
+        border-left: 0px;
+        font-size: 10px;
+        padding: 15px;
+    }
+
 }
 
 }
