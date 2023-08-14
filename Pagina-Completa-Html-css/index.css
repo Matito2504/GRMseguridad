@@ -274,7 +274,7 @@ header a:hover {
     padding: 7px;
     margin: 6px;
     border: none;
-    border-bottom: 4px solid rgb(231, 158, 21);
+    border-bottom: 3px solid rgb(231, 158, 21);
     background: transparent;
     color: white;
 }
@@ -287,6 +287,13 @@ header a:hover {
 .form textarea {
     min-height: 140px;
     resize: none;
+}
+
+.btn{
+    width: 120px;
+    background-color: rgb(231, 158, 21) ;
+    border: 4px solid rgb(246, 243, 237);
+    font-family: 'Poppins', sans-serif;
 }
 
 /*section footer*/
@@ -563,7 +570,7 @@ header a:hover {
 
 
     /* Animación de lluvia */
-    @keyframes rain {
+   /* @keyframes rain {
         0% {
             content: "";
             opacity: 0;
@@ -582,7 +589,7 @@ header a:hover {
             top: 200%;
             left: 70%;
         }
-    }
+    }*/
 
     span::before {
         content: ".";
@@ -690,6 +697,10 @@ header a:hover {
 
     .form-input{
         width: 230px;
+    }
+
+    .btn{
+        width: 90px;
     }
 
     .flex-container{
