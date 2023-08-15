@@ -73,6 +73,7 @@ header .container {
 .container-img {
     display: flex;
     justify-self: start;
+    
 }
 
 header nav {
@@ -104,24 +105,39 @@ header a:hover {
     display: none;
 }
 
+.nav-what{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-what a{
+    width: 125px;
+    color: rgb(19, 106, 9);
+    margin-left: 120px;   
+}
+.nav-what .element{
+    display: none;
+}
+
 /*section main*/
 
 .img {
-    width: 450px;
-    height: 250px;
+    width: 300px;
 }
 
 .text {
     font-size: 1em;
+    margin-top: -60px;
 }
 
 #hero {
     font-size: 40px;
     margin: 0;
-    padding-top: 0%;
+    padding-top: 0px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -394,8 +410,22 @@ header a:hover {
     .container-img {
         padding: 0;
         margin: 0;
-
     }
+    .nav-what{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: -150px;
+    }
+    
+    .nav-what a{
+        width: 100px;
+        color: rgb(19, 106, 9);    
+    }
+    .nav-what .element{
+        display: none;
+    }
+    
 
     /*section sobre-nosotros*/
 
@@ -479,13 +509,15 @@ header a:hover {
         color: #fff;
         padding: 0;
         margin: 0;
+        display: inline;
 
     }
 
     .container {
         display: flex;
-        justify-content: space-around;
-        align-items: center;
+        justify-content: flex-end;
+        align-items: flex-end;
+        
     }
 
     .container-img {
@@ -516,14 +548,10 @@ header a:hover {
     .checkbtn span {
         display: inline-block;
         height: 2px;
-        width: 20px;
-        background-color: #fff;
+        width: 25px;
+        background-color: black;
         margin: 4px 0;
         transition: 0.4s;
-    }
-
-    #menu-check {
-        display: none;
     }
 
     #menu-abrir {
@@ -533,6 +561,21 @@ header a:hover {
     #menu-cerrar {
         display: none;
     }
+    .nav-what{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: -65px;
+    }
+    
+    .nav-what a{
+        display: none;
+        color: rgb(19, 106, 9);     
+    }
+    .nav-what .element{
+        display: block;
+        color: rgb(19, 106, 9); 
+    }
 
     /* Estilos para el menú desplegable */
     .nav-container {
@@ -541,7 +584,7 @@ header a:hover {
         background-color: black;
         padding: 20px;
         position: absolute;
-        top: 100px;
+        top: 130px;
         z-index: 1;
         height: 50%;
         width: 95%;
@@ -549,6 +592,7 @@ header a:hover {
 
     .menu-check:checked~.nav-container {
         display: flex;
+        background-color: black;
     }
 
     .nav-link {
