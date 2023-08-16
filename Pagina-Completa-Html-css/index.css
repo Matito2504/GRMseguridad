@@ -220,8 +220,8 @@ header a:hover {
 }
 
 .imgseguridad {
-    width: 7rem;
-    height: 7rem;
+    width: 9rem;
+    height: 9rem;
     border-radius: 1em;
 }
 
@@ -721,7 +721,11 @@ header a:hover {
         align-items: center;
         text-align: center;
     }
-
+    
+    .imgseguridad{
+        width: 400p;
+        height: 400px;
+    }
 
 
     /* Footer */
