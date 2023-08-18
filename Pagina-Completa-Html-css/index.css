@@ -818,6 +818,11 @@ header a:hover {
 
     @media screen and (max-width: 500px) {
 
+    .imgseguridad{
+        width: 270px;
+        height: 270px;
+    }
+
     .form-input{
         width: 230px;
     }
@@ -843,7 +848,7 @@ header a:hover {
         justify-content: center;
     }
     .serv1 {
-        max-width: 80%;
+        max-width: 95%;
     }
 
     /*carrusel servicios*/
