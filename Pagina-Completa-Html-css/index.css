@@ -220,8 +220,8 @@ header a:hover {
 }
 
 .imgseguridad {
-    width: 9rem;
-    height: 9rem;
+    width: 300px;
+    height: 300px;
     border-radius: 1em;
 }
 
@@ -841,6 +841,9 @@ header a:hover {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    .serv1 {
+        max-width: 80%;
     }
 
     /*carrusel servicios*/
