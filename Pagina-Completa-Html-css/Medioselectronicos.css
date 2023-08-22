@@ -172,6 +172,12 @@ header a:hover {
 }
 
 @media only screen and (min-width:320px) and (max-width:768px) {
+
+    .title-cards{
+        display: flex;
+        align-items: center;
+       font-size: 30px;
+    }
     .container-card {
         flex-wrap: wrap;
     }
@@ -183,6 +189,45 @@ header a:hover {
 
 /*Fin-Cards*/
 
+/*Boton de volver*/
+.volver{
+    margin-top: 10px;
+    text-align: center;
+}
+.volver a{
+	display: inline-block;
+	padding: 10px;
+	margin-top: 10px;
+	text-decoration: none;
+	color: rgb(218, 124, 18);
+	border: 1px solid rgb(218, 124, 18);
+	border-radius: 4px;
+	transition: all 400ms ease;
+	margin-bottom: 5px;
+}
+.volver a:hover{
+	background:rgb(218, 124, 18);
+	color: #fff;
+}
+
+
+/*Contactanos whatsapp*/
+.nav-what{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: rgb(218, 124, 18);
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.nav-what .element{
+    width: 80px;
+    color: rgb(19, 106, 9);
+    display: block;
+    text-decoration: none;
+    margin-left: 0;
+}
 
 /*section footer*/
 
@@ -190,7 +235,7 @@ header a:hover {
     height: 300px;
     background-color: black;
     align-items: flex-end;
-
+    margin-top: 0px;
 }
 
 .container-footer {
