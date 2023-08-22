@@ -172,10 +172,12 @@ header a:hover {
 }
 
 @media only screen and (min-width:320px) and (max-width:768px) {
-
     .title-cards{
-        display: flex;
+        justify-content: center;
         align-items: center;
+    }
+
+    .title-cards h2{
        font-size: 30px;
     }
     .container-card {

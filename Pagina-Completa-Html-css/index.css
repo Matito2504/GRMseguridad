@@ -242,7 +242,7 @@ header a:hover {
 /*Contactanos whatsapp*/
 .nav-what{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
 }
 
@@ -697,6 +697,7 @@ header a:hover {
 
     /*Contactanos whatsapp*/
     .nav-what{
+        margin-top: 25px;
         margin: 0;
         padding: 0%;
         display: flex;
@@ -759,19 +760,21 @@ header a:hover {
     /*Contactanos whatsapp*/
     .nav-what{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
-        margin-top: -65px;
+        margin: 0;
+        
     }
-    
+    .nav-what h1{
+        font-size: 45px;
+        margin-bottom: 10px;
+    }
     .nav-what a{
         display: block;
-        color: rgb(19, 106, 9);     
-    }
-    .nav-what .element{
-        display: none;
         color: rgb(19, 106, 9); 
+        font-size: 45px;    
     }
+    
     
 }
 
