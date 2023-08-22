@@ -105,22 +105,7 @@ header a:hover {
     display: none;
 }
 
-.nav-what{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
-.nav-what a{
-    width: 125px;
-    color: rgb(19, 106, 9);
-    margin-left: 120px;   
-}
-.nav-what .element{
-    display: none;
-}
-
-/*section main*/
 
 .img {
     width: 300px;
@@ -243,12 +228,34 @@ header a:hover {
 @media only screen and (min-width:320px) and (max-width:768px){
 	.container-card{
 		flex-wrap: wrap;
+        background-repeat:repeat-y;
+        background-size: auto;
+        
 	}
 	.card{
 		margin: 15px;
 	}
+   
 }
 /*Fin-Cards*/
+
+/*Contactanos whatsapp*/
+.nav-what{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-what a{
+    width: 125px;
+    color: rgb(19, 106, 9);
+    margin-left: 120px;   
+}
+.nav-what .element{
+    display: none;
+}
+
+
 
 /*section contacto*/
 .form-img {
@@ -331,6 +338,8 @@ header a:hover {
     border: 4px solid rgb(246, 243, 237);
     font-family: 'Poppins', sans-serif;
 }
+
+/*Contactanos whatsapp*/
 .nav-what{
     display: flex;
     flex-direction: row;
@@ -445,6 +454,8 @@ header a:hover {
         padding: 0;
         margin: 0;
     }
+
+    /*Contactanos whatsapp*/
     .nav-what{
         display: flex;
         flex-direction: column;
@@ -595,22 +606,7 @@ header a:hover {
     #menu-cerrar {
         display: none;
     }
-    .nav-what{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        margin-top: -65px;
-    }
     
-    .nav-what a{
-        display: none;
-        color: rgb(19, 106, 9);     
-    }
-    .nav-what .element{
-        display: block;
-        color: rgb(19, 106, 9); 
-    }
-
     /* Estilos para el menú desplegable */
     .nav-container {
         display: none;
@@ -700,7 +696,25 @@ header a:hover {
         padding: 15px;
     }
 
-   
+    /*Contactanos whatsapp*/
+    .nav-what{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: -65px;
+        align-items: center;
+    }
+    
+    .nav-what a{
+        display: block;
+        color: rgb(19, 106, 9);     
+    }
+    .nav-what .element{
+        display: none;
+        color: rgb(19, 106, 9); 
+    }
+
+
 
     /* Footer */
 
@@ -740,6 +754,23 @@ header a:hover {
         border-left: 0px;
         font-size: 15px;
         padding: 10px;
+    }
+
+    /*Contactanos whatsapp*/
+    .nav-what{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: -65px;
+    }
+    
+    .nav-what a{
+        display: block;
+        color: rgb(19, 106, 9);     
+    }
+    .nav-what .element{
+        display: none;
+        color: rgb(19, 106, 9); 
     }
     
 }
