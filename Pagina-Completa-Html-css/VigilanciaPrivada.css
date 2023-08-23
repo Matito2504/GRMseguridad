@@ -90,6 +90,7 @@ header a:hover {
     display: flex;
     align-items: flex-start;
    font-size: 50px;
+   justify-content: center;
 }
 .title-cards h2{
     margin: 0;
