@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap" rel="stylesheet">
-
+    <script async src="./contacto.js"></script>
 </head>
 
 <body>
@@ -116,12 +116,12 @@
             <!--<a href="#" class="fa-brands fa-whatsapp fa-2x element"></a>-->
         </div>
         <div class="flex-container">
-            <form class="form" action="https://formspree.io/f/mdorglwe" method="post">
+            <form class="form" id="formulario" action="https://formspree.io/f/mdorglwe" method="post" onsubmit="return validarFormulario()">
                 <div class="form-section">
-                    <input type="text" name="Nombre" class="form-input" placeholder="Escriba su Nombre">
+                    <input type="text" id="nombre" name="Nombre" class="form-input" placeholder="Escriba su Nombre">
                 </div>
                 <div class="form-section">
-                    <input type="email" name="email" class="form-input" placeholder="Escriba su Email">
+                    <input type="email" id="email" name="email" class="form-input" placeholder="Escriba su Email">
                 </div>
                 <div class="form-section">
                     <textarea class="form-input" name="Mensaje" placeholder="Escriba Mensaje"> </textarea>

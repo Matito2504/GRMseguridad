@@ -145,7 +145,6 @@ header a:hover {
 }
 
 #sobre-nosotros {
-    padding-top: 100px;
     display: flex;
     flex-direction: row;
 
