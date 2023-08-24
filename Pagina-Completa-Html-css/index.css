@@ -59,7 +59,7 @@ header {
 header p {
     margin: 0px;
     padding: 20px 30px;
-    font-size: 1.45;
+    font-size: 25px;
     float: left;
 }
 
@@ -91,6 +91,7 @@ header a {
     font-weight: bolder;
     color: rgb(218, 124, 18);
     margin-right: 35px;
+    font-size: 23px;
 }
 
 header a:hover {
